@@ -240,7 +240,7 @@
 
                   <div class="row row-experience">
                     <div class="col-md-4">
-                      <a href="#"><img alt="Azure Logo" height="100px" width="100px" src="img/azure.png" /></a>
+                      <a href="#"><img alt="Azure Logo" height="60px" width="60px" src="img/azure.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
                       2021-<?php echo date("Y") ?>
@@ -363,7 +363,7 @@
                 <div class="experience-item">
                   <div class="row row-experience">
                     <div class="col-md-4">
-                      <a href="#"><img alt="Microsoft .NET Logo" height="100px" width="100px" src="img/c-plus-plus.png" /></a>
+                      <a href="#"><img alt="Microsoft .NET Logo" height="60px" width="60px" src="img/c-plus-plus.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
                       2021 - <?php echo date("Y") ?>
@@ -391,7 +391,7 @@
 
                   <div class="row row-experience">
                     <div class="col-md-4">
-                      <a href="#"><img alt="Laravel Logo" src="img/unity.png" /></a>
+                      <a href="#"><img alt="Laravel Logo" height="60px" width="60px" src="img/unity.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
                       2021-<?php echo date("Y") ?>
