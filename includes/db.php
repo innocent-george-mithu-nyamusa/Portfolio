@@ -1,8 +1,8 @@
 <?php
 
-    $host = '127.0.0.2';
-    $dbName = 'nyamusat_clients';
-    $user = 'nyamusat_clients';
+    $host = 'localhost';
+    $dbName = 'u271646766_portfolio';
+    $user = 'u271646766_portfolio';
     $pwd = 'Coollifestyle@1';
 
 
