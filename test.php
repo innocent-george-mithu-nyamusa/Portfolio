@@ -13,7 +13,7 @@
 
 </head>
 <body>
-<form class="js-ajax-form">
+<form method="post" action="mail.php">
     <input type="text" name="name" >
     <input type="email" name="email" >
     <textarea name="message" rows="8" cols="80"></textarea>
@@ -37,6 +37,3 @@
 <script src="js/interface.js"></script>
 </body>
 </html>
-
-
-

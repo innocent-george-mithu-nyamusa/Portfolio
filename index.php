@@ -24,7 +24,7 @@
       <a class="navbar-brand" href="#">innocent.</a>
       <div class="container d-block">
         <span class="phone my-0 d-none d-md-block">+263 77 314 1650</span>
-        <span class="email my-0 d-none d-md-block"><a href="">consult@nyamusa.tech</a></span>
+        <span class="email my-0 d-none d-md-block"><a href="">innocent@nyamusa.tech</a></span>
       </div>
 
       <button class="toggler">
@@ -56,7 +56,7 @@
     </div>
 
     <div class="copy d-none d-sm-block">
-      © innocent-george-mithu-nyamusa. 2021.
+      © innocent-george-mithu-nyamusa. 2021 - <?php echo date("Y") ?>.
     </div>
   </nav>
 
@@ -184,7 +184,7 @@
                     </div>
                     <div class="col-md-4">
                       php is my primary backend language for Web Development.
-                      Its a language i naturally found confort in and i have
+                      Its a luanguage i naturally found confort in and i have
                       been developing using the techology since i got
                       introduced to Web Development.
                     </div>
@@ -330,9 +330,9 @@
                       <h3 class="my-0 text-white">Python</h3>
                     </div>
                     <div class="col-md-4">
-                      Python is a great lungauage. It is a versatile technology with a big
+                      Python is a great language. It is a versatile technology with a big
                       community.
-                      In my opinion i believe its a lunguage for the future.
+                      In my opinion i believe its a language for the future.
                     </div>
                   </div>
                   <div class="row row-experience">
@@ -715,7 +715,7 @@
     <section id="projects" class="navbar-is-white text-white section pp-scrollable position-absolute">
       <div class="project-wrap">
         <div class="bg-changer">
-          <div class="section-bg active" style="background-image: url(img/bg/portfolio/bg1.jpg)"></div>
+          <div class="section-bg active" style="background-image: url(img/bg/portfolio/bg1.png)"></div>
           <div class="section-bg" style="background-image: url(img/bg/portfolio/bg2.jpg)"></div>
           <div class="section-bg" style="background-image: url(img/bg/portfolio/bg3.jpg)"></div>
           <div class="section-bg" style="background-image: url(img/bg/portfolio/bg4.jpg)"></div>
@@ -729,17 +729,17 @@
               <div class="mt-5 pt-2">
                 <div class="row-project-box row">
                   <div class="col-project-box col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="project-box">
+                    <a href="http://nerdlife.co.zw/" class="project-box">
                       <div class="project-box-inner">
-                        <h4>Trillo Web App</h4>
+                        <h4>NerdLibrary Autonomous Education Platforms</h4>
                         <div class="project-category">
-                          Sass css Web Application
+                          Autonomous Education Platform
                         </div>
                       </div>
                     </a>
                   </div>
                   <div class="col-project-box col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="project-box">
+                    <a href="https://natourszw.herokuapp.com/" class="project-box">
                       <div class="project-box-inner">
                         <h4>Natours Web App</h4>
                         <div class="project-category">
@@ -749,7 +749,7 @@
                     </a>
                   </div>
                   <div class="col-project-box col-md-6 col-lg-4 col-xl-3">
-                    <a href="#" class="project-box">
+                    <a href="http://wirlopark.co.za/" class="project-box">
                       <div class="project-box-inner">
                         <h4>Trees.</h4>
                         <div class="project-category">
@@ -995,7 +995,7 @@
                 <div class="mt-5">
                   <form class="js-ajax-form">
                     <div class="form-group">
-                      <input type="text" id="name" name="name" required="" class="form-control" placeholder="Name*" />
+                      <input type="text" name="name" id="name" required="" class="form-control" placeholder="Name*" />
                     </div>
                     <div class="form-group">
                       <input type="email" name="email" id="email" class="form-control" required="" placeholder="Email*" />
@@ -1004,10 +1004,10 @@
                       <textarea rows="3" name="message" id="message" required="" class="form-control" placeholder="Message*"></textarea>
                     </div>
                     <div class="message" id="success-message">
-                      Your message to Inncocent has been successfully sent...
+                      Your message to Inncocent has been uccessfully sent...
                     </div>
                     <div class="message" id="error-message">
-                      Sorry something went wrong with sending your message
+                      Sorry something went wrong withsending your message
                     </div>
                     <div class="form-group mb-0">
                       <button type="submit" name="send_message" class="btn">Contact me</button>
