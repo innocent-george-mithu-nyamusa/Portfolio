@@ -177,7 +177,7 @@
                       <a href="#"><img alt="" src="img/php.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2019-2021
+                      2019 - <?php echo date("Y") ?>
                       <h3 class="my-0 text-white">
                         PHP (OOP and Procedural)
                       </h3>
@@ -194,7 +194,7 @@
                       <a href="#"><img alt="Gradle Logo" src="img/gradle.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2020-2021
+                      2020-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">Flutter and Dart</h3>
                     </div>
                     <div class="col-md-4">
@@ -208,7 +208,7 @@
                       <a href="#"><img alt="Express Logo" src="img/express.png" /></a>
                     </div>
                     <div class="col-md-4">
-                      2013-2017
+                      2018-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">
                         Express
                       </h3>
@@ -228,49 +228,52 @@
                       <a href="#"><img alt="Google Logo" src="img/gcloud.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2021
+                      2021 - <?php echo date("Y") ?>
                       <h3 class="my-0 text-white">
-                        Google Cloud Engineering
+                        Google Cloud Platform
                       </h3>
                     </div>
                     <div class="col-md-4">
                       i am a certified google cloud engineer.
                     </div>
                   </div>
+
                   <div class="row row-experience">
                     <div class="col-md-4">
-                      <a href="#"><img alt=" Css Logo" src="img/oracle.png" /></a>
+                      <a href="#"><img alt="Azure Logo" src="img/azure.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2021
-                      <h3 class="my-0 text-white">Oracle Cloud Engineer</h3>
+                      2021-<?php echo date("Y") ?>
+                      <h3 class="my-0 text-white">Azure Cloud Engineer</h3>
                     </div>
                     <div class="col-md-4">
-                      I really enjoy working with Oracle Cloud.
+                      I really enjoy working in Azure Cloud.
                     </div>
                   </div>
+
                   <div class="row row-experience">
                     <div class="col-md-4">
                       <a href="#"><img alt="Amazon logo" src="img/aws.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2021
+                      2021- <?php echo date("Y") ?>
                       <h3 class="my-0 text-white">Amazon Web Services</h3>
                     </div>
                     <div class="col-md-4">
-                      Amazon Cloud Technology is spectacular and an awesome skill i am proud of to
-                      be a part of it. i have build asset tracking data ingestion engines using
-                      their tech and Cloud databases.
+                      Amazon Cloud Technology is spectacular and an awesome skill i am proud of to have.
+                      i have build asset tracking data ingestion engines on it.
                     </div>
                   </div>
+
                 </div>
+
                 <div class="experience-item">
                   <div class="row row-experience">
                     <div class="col-md-4">
                       <a href="#"><img alt="Swidfttechnology Logo" src="img/swift.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2020-2021
+                      2020-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">
                         Swift for IOS Dev
                       </h3>
@@ -280,13 +283,14 @@
                       Development.
                     </div>
                   </div>
+
                   <div class="row row-experience">
                     <div class="col-md-4">
                       <a href="#"><img alt="Apple Logo" src="img/apple.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2021
-                      <h3 class="my-0 text-white"></h3>
+                      2021-<?php echo date("Y") ?>
+                      <h3 class="my-0 text-white">IOS Applications</h3>
                     </div>
                     <div class="col-md-4">
                       IOS Application Development in Flutter and Swift.
@@ -297,22 +301,24 @@
                       <a href="#"><img alt="Android Logo" src="img/android.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2018-2021
-                      <h3 class="my-0 text-white">Android </h3>
+                      2018-<?php echo date("Y") ?>
+                      <h3 class="my-0 text-white">Android Mobile Applications</h3>
                     </div>
                     <div class="col-md-4">
                       Android is a beautiful OS. I Develop Android Mobile Apps in Android studio
                       and flutter.
                     </div>
                   </div>
+
                 </div>
+
                 <div class="experience-item">
                   <div class="row row-experience">
                     <div class="col-md-4">
                       <a href="#"><img alt="Java" src="img/java.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2018-2021
+                      2018 - <?php echo date("Y") ?>
                       <h3 class="my-0 text-white">Java</h3>
                     </div>
                     <div class="col-md-4">
@@ -326,7 +332,7 @@
                       <a href="#"><img alt="Python logo" src="img/python.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2018-2021
+                      2018 - <?php echo date("Y") ?>
                       <h3 class="my-0 text-white">Python</h3>
                     </div>
                     <div class="col-md-4">
@@ -340,7 +346,7 @@
                       <a href="#"><img alt="Javascript Logo" src="img/jquery.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2018-2021
+                      2018 - <?php echo date("Y") ?>
                       <h3 class="my-0 text-white">
                         Ruby on Rails
                       </h3>
@@ -357,17 +363,16 @@
                 <div class="experience-item">
                   <div class="row row-experience">
                     <div class="col-md-4">
-                      <a href="#"><img alt="Microsoft .NET Logo" src="img/net.png" /></a>
+                      <a href="#"><img alt="Microsoft .NET Logo" src="img/c-plus-plus.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2021
+                      2021 - <?php echo date("Y") ?>
                       <h3 class="my-0 text-white">
-                        Microsoft .NET
+                        C++
                       </h3>
                     </div>
                     <div class="col-md-4">
-                      i build windows apps in Microsoft .NET Technology. Mainly For Debuggers and
-                      Dedicated Software.
+                      i have collaborated on a number of games in C++.
                     </div>
                   </div>
                   <div class="row row-experience">
@@ -375,7 +380,7 @@
                       <a href="#"><img alt="C Logo" src="img/c.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2020-2021
+                      2020-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">C</h3>
                     </div>
                     <div class="col-md-4">
@@ -383,67 +388,19 @@
                       offers me a lot of power especially for doing projects for Unix Systems.
                     </div>
                   </div>
+
                   <div class="row row-experience">
                     <div class="col-md-4">
-                      <a href="#"><img alt="Laravel Logo" src="img/laravel.png" /></a>
+                      <a href="#"><img alt="Laravel Logo" src="img/unity.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2021
+                      2021-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">
-                        Laravel
+                        Unity
                       </h3>
                     </div>
                     <div class="col-md-4">
-                      Laravel is a great php framework technology that
-                      i use for building API's in php And Very Large Applications.
-                      Personally i believe the laravel CMS(October CMS) is a great demonstration
-                      of the power of the framework and the Language as a whole.
-                    </div>
-                  </div>
-                </div>
-                <div class="experience-item">
-                  <div class="row row-experience">
-                    <div class="col-md-4">
-                      <a href="#"><img alt="Angular Js" src="img/angular.png" /></a>
-                    </div>
-                    <div class="col-md-4 my-4">
-                      2020-2021
-                      <h3 class="my-0 text-white">
-                        Angular JS
-                      </h3>
-                    </div>
-                    <div class="col-md-4">
-                      A powerful Javascript framework i use for building Web interfaces.
-                    </div>
-                  </div>
-                  <div class="row row-experience">
-                    <div class="col-md-4">
-                      <a href="#"><img alt="Vue Js logo" src="img/vue.png" /></a>
-                    </div>
-                    <div class="col-md-4 my-4">
-                      2021
-                      <h3 class="my-0 text-white">Vue Js</h3>
-                    </div>
-                    <div class="col-md-4">
-                      Vue Js is a technology i use to build mordern fast Web applications .
-                      I started to use the technology as i was maigrating from React and
-                      Angular beacuse of it lightweight
-                      but powerful nature.
-                    </div>
-                  </div>
-                  <div class="row row-experience">
-                    <div class="col-md-4">
-                      <a href="#"><img alt="Sass Logo" src="img/sass.png" /></a>
-                    </div>
-                    <div class="col-md-4 my-4">
-                      2019-2021
-                      <h3 class="my-0 text-white">
-                        Sass
-                      </h3>
-                    </div>
-                    <div class="col-md-4">
-                      My favorite css proprocessor which makes css development very easy and
-                      fast.
+                      I have been partf of game development teams building on unity using the unberal engine.As a game dev.
                     </div>
                   </div>
                 </div>
@@ -453,7 +410,7 @@
                       <a href="#"><img alt="" src="img/typescript.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2020-2021
+                      2020-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">
                         TypeScript
                       </h3>
@@ -467,12 +424,12 @@
                       <a href="#"><img alt="React Js logo" src="img/react.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2020-2021
+                      2020-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">React Js</h3>
                     </div>
                     <div class="col-md-4">
-                      React.JS is great Technology and i have built a few small
-                      application with the mordern tech.
+                      React.JS is great Technology and i have built User interfaces
+                      applications with the mordern tech. I have also worked with Nextjs .
                     </div>
                   </div>
                   <div class="row row-experience">
@@ -480,7 +437,7 @@
                       <a href="#"><img alt="Javascript Logo" src="img/jquery.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2018-2021
+                      2018-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">
                         JQuery
                       </h3>
@@ -497,7 +454,7 @@
                       <a href="#"><img alt="Electron logo" src="img/electron.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2020-2021
+                      2020-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">Electron</h3>
                     </div>
                     <div class="col-md-4">
@@ -523,7 +480,7 @@
                       <a href="#"><img alt="Node JS Logo" src="img/js.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2019-2021
+                      2019-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">Node JS</h3>
                     </div>
                     <div class="col-md-4">
@@ -538,7 +495,7 @@
                       <a href="#"><img alt="Heroku Logo" src="img/heroku.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2020-2021
+                      2020-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">Heroku</h3>
                     </div>
                     <div class="col-md-4">
@@ -554,7 +511,7 @@
                       <a href="#"><img alt="Git logo" src="img/git.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2018-2021
+                      2018-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">Git</h3>
                     </div>
                     <div class="col-md-4">
@@ -569,7 +526,7 @@
                       <a href="#"><img alt="Mongo DB Logo" src="img/mongo.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2019-2021
+                      2019-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">MongoDB</h3>
                     </div>
                     <div class="col-md-4">
@@ -606,7 +563,7 @@
                       <a href="#"><img alt="Slack logo" src="img/slack.png" /></a>
                     </div>
                     <div class="col-md-4 my-4">
-                      2018-2019
+                      2018-<?php echo date("Y") ?>
                       <h3 class="my-0 text-white">Slack</h3>
                     </div>
                     <div class="col-md-4">
@@ -658,8 +615,8 @@
               <div class="mt-5 mt-lg-0 col-lg-5 offset-lg-1">
                 <h2>
                   My mission is to
-                  <span class="text-primary">develop</span> revolutionary
-                  software for Africa and the world.
+                  <span class="text-primary">build</span> disruptive
+                  ideas for Africa and the world.
                 </h2>
                 <p>
                   I am passionante about building applications and software
@@ -668,7 +625,7 @@
                 <div class="mt-5 pt-2">
                   <div class="progress-item">
                     <div class="row">
-                      <h6 class="col-md-6 mt-0">Mobile App (Dart, Kivy)</h6>
+                      <h6 class="col-md-6 mt-0">Cloud Development </h6>
                       <h6 class="col-md-6 text-right mt-0">74%</h6>
                     </div>
                     <div class="progress mb-5">
@@ -677,7 +634,7 @@
                   </div>
                   <div class="progress-item">
                     <div class="row">
-                      <h6 class="col-md-6 mt-0">PHP</h6>
+                      <h6 class="col-md-6 mt-0">Backend Developmet</h6>
                       <h6 class="col-md-6 text-right mt-0">80%</h6>
                     </div>
                     <div class="progress mb-5">
@@ -686,7 +643,7 @@
                   </div>
                   <div class="progress-item">
                     <div class="row">
-                      <h6 class="col-md-6 mt-0">Python</h6>
+                      <h6 class="col-md-6 mt-0">Front End Development</h6>
                       <h6 class="col-md-6 text-right mt-0">70%</h6>
                     </div>
                     <div class="progress mb-5">
@@ -696,7 +653,7 @@
                   <div class="progress-item">
                     <div class="row">
                       <h6 class="col-md-6 mt-0">
-                        Javascript &amp; Frameworks
+                        Web3 Engineering And Mobile App Development
                       </h6>
                       <h6 class="col-md-6 text-right mt-0">60%</h6>
                     </div>
@@ -731,7 +688,7 @@
                   <div class="col-project-box col-md-6 col-lg-4 col-xl-3">
                     <a href="http://nerdlife.co.zw/" class="project-box">
                       <div class="project-box-inner">
-                        <h4>NerdLibrary Autonomous Education Platforms</h4>
+                        <h4>Nerd Library Autonomous Education Platform</h4>
                         <div class="project-category">
                           Autonomous Education Platform
                         </div>
