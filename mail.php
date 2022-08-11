@@ -25,7 +25,7 @@ if (isset($_POST["send_message"])) {
   $email->addContent("text/plain", "Thank you for giving me the opportunity to acknowledge you. I couldn’t be prouder to call you our partner and a part of our community.Your loyalty and feedback have powered meaningful improvement in my work.For that, i am so grateful.");
   $email->addContent("text/html", "$template");
 
-  $sendgrid = new \SendGrid("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");
+  $sendgrid = new \SendGrid("Sengrid Key");
 
   try {
     $response = $sendgrid->send($email);
